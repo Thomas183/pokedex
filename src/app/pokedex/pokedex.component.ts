@@ -11,5 +11,10 @@ export class PokedexComponent {
     _pokeApi.getPokemons().subscribe(pokemons => {
       console.log(pokemons)
     })
+
+    _pokeApi.getPokemonDetails('').subscribe(pokemon => {
+      console.log(pokemon);
+    });
   }
+
 }

@@ -1,8 +1,10 @@
 export interface PokemonDetails {
+  species? : {
+    url : string
+  }
   description : string,
   id : number,
   weight : number,
   height : number,
-  frontImage : string,
-  backImage : string
+  name : string,
 }
