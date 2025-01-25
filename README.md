@@ -1,3 +1,7 @@
+# Context
+
+This app was made as part of a small exersise at Technobel, it uses the pokeAPI to display a list of Pokemons.
+
 # Pokedex
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
